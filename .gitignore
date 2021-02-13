@@ -1,3 +1,5 @@
+# MicroPython
+TestELF/MicroPython/port/ExistOS/build/
 # Prerequisites
 *.d
 
@@ -62,6 +64,7 @@ Makefile
 CMakeCache.txt
 cmake_install.cmake
 CMakeFiles/
+build/.cmake/
 
 # Tools
 elftosb
