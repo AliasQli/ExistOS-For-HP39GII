@@ -30,13 +30,4 @@ jobs:
       with:
         name: firmware
         path: ./firmware.sb
-    - name: make testelf
-      run: |
-        cd TestELF
-        make
-    - name: upload test.elf
-      uses: actions/upload-artifact@v2.2.2
-      with:
-        name: test
-        path: TestELF/test.elf
         
